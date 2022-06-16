@@ -5,7 +5,7 @@ const allProductPhotos = document.getElementById("allProductPhotos");
 const mobileClose = document.getElementsByClassName("mobile-nav-toggle")[0];
 
 /*
-artifical_grass        bathroom_partitions        flooring_and_walls      glass_railings   laminates   mirror              pannel          taps     wash_basin
+artifical_grass        glass        flooring_and_walls      glass_railings   laminates   mirror              pannel          taps     wash_basin
  bath_tub               cupboards_and_cabinates   general_items_fevicol   green_walls      light      'modular kitchens'   plywood      'sher board'         tiles    water_closet
  bathroom_accessories   curtains_and_blinds      'glass doors'            hardware         mdf         modular_kitchen     power_tools   shower_and_drains   venner   wpc
 
@@ -19,10 +19,16 @@ artifical_grass        bathroom_partitions        flooring_and_walls      glass_
 //   "hvt Artificial Grass  2.jpeg",
 // ];
 
-const bathroom_partitions = [
-  "hindware SHOWER ENCLOSURES 1.jpeg",
-  "hindware SHOWER ENCLOSURES 3.jpeg",
-  "hindware SHOWER ENCLOSURES 2.jpeg",
+const glass = [
+  "GLASS1.jpg",
+  "GLASS2.jpg",
+  "GLASS3.jpg",
+  "GLASS4.jpg",
+  "GLASS5.jpg",
+
+  // "hindware SHOWER ENCLOSURES 1.jpeg",
+  // "hindware SHOWER ENCLOSURES 3.jpeg",
+  // "hindware SHOWER ENCLOSURES 2.jpeg",
 ];
 
 const flooring_and_walls = [
@@ -88,7 +94,7 @@ const pannel = [
   "BISON PANEL PLAIN BOARD 3.png",
 ];
 
-const taps = [
+const taps_showers = [
   "american standard Commercial Bathroom  4.jpeg",
   "franke taps 1.jpeg",
   "american standard Commercial Bathroom  5.jpeg",
@@ -103,6 +109,20 @@ const taps = [
   "grohe taps 2.jpeg",
   "aquant taps .jpeg",
   "grohe taps 3.jpeg",
+  "Bath & Shower americanstandard  3.jpeg",
+  "aquant  SHOWER HEADS 1.jpeg",
+  "aquant  SHOWER HEADS4.jpeg",
+  "aquant BODY JETS 1.jpeg",
+  "aquint shower drain  3.jpeg",
+  "Bath & Shower americanstandard  4.jpeg",
+  "aquant  SHOWER HEADS 2.jpeg",
+  "aquant BODY JETS  2.jpeg",
+  "aquant SHOWERS IN PVD FINISHES 1.jpeg",
+  "aquint shower drain  4.jpeg",
+  "SHOWERS hindware 1.png",
+  "aquant  SHOWER HEADS 3.jpeg",
+  "aquant BODY JETS  3.jpeg",
+  "aquant SHOWERS IN PVD FINISHES 2.jpeg",
 ];
 
 const wash_basin = [
@@ -183,42 +203,63 @@ const artifical_grass_and_green_walls = [
 ];
 
 const light = [
-  "2.jpeg",
-  "philips   hue 2.png",
-  "philips bulbs  .png",
-  "philips bulbs  6.png",
-  "philips luminairs  4.png",
-  "philips luminairs 3.png",
-  "honnex light .jpeg",
-  "philips   track light .jpeg",
-  "philips bulbs  1.png",
-  "philips bulbs  9.png",
-  "philips luminairs  5.png",
-  "phlipslights .jpeg",
-  "honnex light 2.jpeg",
-  "philips  led pannel .jpeg",
-  "philips bulbs  5.png",
-  "philips luminairs  1 2.png",
-  "philips luminairs  6.png",
+  "LIGHT1.png",
+  "LIGHT2.png",
+  "LIGHT3.png",
+
+  // "2.jpeg",
+  // "philips   hue 2.png",
+  // "philips bulbs  .png",
+  // "philips bulbs  6.png",
+  // "philips luminairs  4.png",
+  // "philips luminairs 3.png",
+  // "honnex light .jpeg",
+  // "philips   track light .jpeg",
+  // "philips bulbs  1.png",
+  // "philips bulbs  9.png",
+  // "philips luminairs  5.png",
+  // "phlipslights .jpeg",
+  // "honnex light 2.jpeg",
+  // "philips  led pannel .jpeg",
+  // "philips bulbs  5.png",
+  // "philips luminairs  1 2.png",
+  // "philips luminairs  6.png",
 ];
 
 const modular_kitchen = [
-  "ModernBoldKitchen.jpeg",
-  "VintageConnoisseur Inspiration.jpeg",
-  "TheSoloist Inspiration.jpeg",
-  "NatureLover Inspiration1.jpeg",
-  "sleek Shutters.jpeg",
-  "Romantic Inpiration1.jpeg",
-  "sleek Appliances.jpeg",
+  "k1.jpg",
+  "k2.jpg",
+  "k3.jpg",
+  "k4.png",
+  "k5.jpg",
+  "k6.jpg",
+  "k7.jpg",
+  "k8.jpg",
+  "k9.jpg",
+  "k10.jpg",
+  // "ModernBoldKitchen.jpeg",
+  // "VintageConnoisseur Inspiration.jpeg",
+  // "TheSoloist Inspiration.jpeg",
+  // "NatureLover Inspiration1.jpeg",
+  // "sleek Shutters.jpeg",
+  // "Romantic Inpiration1.jpeg",
+  // "sleek Appliances.jpeg",
 ];
 
 const plywood = [
-  "CenturyPly  flushdoores .jpeg",
-  "austin playwood  blackboard platinum plus .jpeg",
-  "century plywood natzure woods .jpeg",
-  "CenturyPly  water resistance.png",
-  "austin playwood  britch .jpeg",
-  "donyi-plywood-sheet .jpeg",
+  "p1.png",
+  "p2.jpeg",
+  "p3.webp",
+  "p4.jpg",
+  "p5.jpg",
+  "p6.jpg",
+  "p7.png",
+  // "CenturyPly  flushdoores .jpeg",
+  // "austin playwood  blackboard platinum plus .jpeg",
+  // "century plywood natzure woods .jpeg",
+  // "CenturyPly  water resistance.png",
+  // "austin playwood  britch .jpeg",
+  // "donyi-plywood-sheet .jpeg",
 ];
 
 const sher_board = [
@@ -293,10 +334,14 @@ const bathroom_accessories = [
 ];
 
 const curtains_and_blinds = [
-  "marvel LUZON BLINDS.jpeg",
-  "marvel ROLLER BLINDS.jpeg",
-  "marvel SKYLIGHT BLINDS.jpeg",
-  "marvel printed blindes .jpeg",
+  "b1.jpg",
+  "b2.jpg",
+  "b3.jpg",
+
+  // "marvel LUZON BLINDS.jpeg",
+  // "marvel ROLLER BLINDS.jpeg",
+  // "marvel SKYLIGHT BLINDS.jpeg",
+  // "marvel printed blindes .jpeg",
 ];
 
 const glass_doors = [
@@ -315,29 +360,45 @@ const glass_doors = [
 ];
 
 const hardware = [
-  "2hafele Furniture Hinges .jpeg",
-  "haffle Furniture & Door Handles 2.jpeg",
-  "nimmi Door Hardware  2.png",
-  "ozone DIGITAL SAFES .jpeg",
-  "americanstandard Accessories   9.jpeg",
-  "haffle Furniture & Door Handles 3.jpeg",
-  "hafele Furniture Hinges 3.jpeg",
-  "godrej Home Security .jpeg",
-  "hittich hinges.jpeg",
-  "nimmi Door Hardware .png",
-  "ozone LOCKING SYSTEMS & SOLUTIONS 2.png",
-  "goodrej door closer .jpeg",
-  "nimmi Cabinet Handles 2.png",
-  "nimmi Other Door Accessories .png",
-  "ozone LOCKING SYSTEMS & SOLUTIONS 3.jpeg",
-  "nimmi Door Hardware  3.png",
-  "nimmi Cabinet Handles 3.png",
-  "nimmi Sliding Solutions 1.png",
-  "ozone LOCKING SYSTEMS & SOLUTIONS.jpeg",
-  "haffle Furniture & Door Handles .jpeg",
-  "nimmi Cabinet Handles.png",
-  "ozone DIGITAL SAFES  2.jpeg",
-  "ozone KITCHEN & FURNITURE FITTINGS  1.jpeg",
+  "h1.jpeg",
+  "h2.png",
+  "h3.jpg",
+  "h4.png",
+  "h5.jpg",
+  "h6.png",
+  "h7.jpg",
+  "h8.jpg",
+  "h9.jpg",
+  "h10.jpg",
+  "h16.jpg",
+  "h15.jpg",
+  "h11.jpg",
+  "h12.jpg",
+  "h13.jpg",
+  "h14.png",
+  // "2hafele Furniture Hinges .jpeg",
+  // "haffle Furniture & Door Handles 2.jpeg",
+  // "nimmi Door Hardware  2.png",
+  // "ozone DIGITAL SAFES .jpeg",
+  // "americanstandard Accessories   9.jpeg",
+  // "haffle Furniture & Door Handles 3.jpeg",
+  // "hafele Furniture Hinges 3.jpeg",
+  // "godrej Home Security .jpeg",
+  // "hittich hinges.jpeg",
+  // "nimmi Door Hardware .png",
+  // "ozone LOCKING SYSTEMS & SOLUTIONS 2.png",
+  // "goodrej door closer .jpeg",
+  // "nimmi Cabinet Handles 2.png",
+  // "nimmi Other Door Accessories .png",
+  // "ozone LOCKING SYSTEMS & SOLUTIONS 3.jpeg",
+  // "nimmi Door Hardware  3.png",
+  // "nimmi Cabinet Handles 3.png",
+  // "nimmi Sliding Solutions 1.png",
+  // "ozone LOCKING SYSTEMS & SOLUTIONS.jpeg",
+  // "haffle Furniture & Door Handles .jpeg",
+  // "nimmi Cabinet Handles.png",
+  // "ozone DIGITAL SAFES  2.jpeg",
+  // "ozone KITCHEN & FURNITURE FITTINGS  1.jpeg",
 ];
 
 const mdf = ["action tesa mfd  2.jpeg", "action tesa mfd 1.jpeg"];
@@ -377,7 +438,7 @@ const shower_and_drains = [
   "aquant  SHOWER HEADS 3.jpeg",
   "aquant BODY JETS  3.jpeg",
   "aquant SHOWERS IN PVD FINISHES 2.jpeg",
-  "aquint shower drain 1.jpeg",
+  // "aquint shower drain 1.jpeg",
 ];
 
 const venner = [
@@ -391,12 +452,17 @@ const venner = [
   "timex.jpeg",
 ];
 
-const wpc = [
-  "Austin WPC art jaali.jpeg",
-  "Austin WPC doores 2.png",
-  "Austin WPC doores 3.jpeg",
-  "Austin WPC doores.jpeg",
-  "Austin WPC doores.png",
+const Doors = [
+  "DOOR1.png",
+  "DOOR2.jpeg",
+  "DOOR3.jpg",
+  "DOOR4.jpg",
+  "DOOR5.jpg",
+  // "Austin Doors art jaali.jpeg",
+  // "Austin Doors doores 2.png",
+  // "Austin Doors doores 3.jpeg",
+  // "Austin Doors doores.jpeg",
+  // "Austin Doors doores.png",
 ];
 
 function LoadProducts(li) {
@@ -419,15 +485,15 @@ function LoadProducts(li) {
     appendImges(bath_tub, srcLink);
   }
 
-  if (li.textContent === "Taps") {
+  if (li.textContent === "Taps & Showers") {
     const srcLink = "/prodPics/Taps/";
-    appendImges(taps, srcLink);
+    appendImges(taps_showers, srcLink);
   }
 
-  if (li.textContent === "Shower and drains") {
-    const srcLink = "/prodPics/shower_and_drains/";
-    appendImges(shower_and_drains, srcLink);
-  }
+  // if (li.textContent === "Shower and drains") {
+  //   const srcLink = "/prodPics/shower_and_drains/";
+  //   appendImges(shower_and_drains, srcLink);
+  // }
 
   if (li.textContent === "Wash basin") {
     const srcLink = "/prodPics/wash_basin/";
@@ -486,17 +552,17 @@ function LoadProducts(li) {
     const srcLink = "/prodPics/curtains_and_blinds/";
     appendImges(curtains_and_blinds, srcLink);
   }
-  if (li.textContent === "Bathroom Partitions") {
-    const srcLink = "/prodPics/bathroom_partitions/";
-    appendImges(bathroom_partitions, srcLink);
+  if (li.textContent === "Glass") {
+    const srcLink = "/prodPics/glass/";
+    appendImges(glass, srcLink);
   }
-  if (li.textContent === "Glass railings") {
-    const srcLink = "/prodPics/glass_railings/";
-    appendImges(glass_railings, srcLink);
-  }
-  if (li.textContent === "WPC") {
+  // if (li.textContent === "Glass railings") {
+  //   const srcLink = "/prodPics/glass_railings/";
+  //   appendImges(glass_railings, srcLink);
+  // }
+  if (li.textContent === "Doors") {
     const srcLink = "/prodPics/wpc/";
-    appendImges(wpc, srcLink);
+    appendImges(Doors, srcLink);
   }
   if (li.textContent === "Glass doors") {
     const srcLink = "/prodPics/glass_doors/";
@@ -506,7 +572,7 @@ function LoadProducts(li) {
     const srcLink = "/prodPics/general_items_fevicol/";
     appendImges(general_items_fevicol, srcLink);
   }
-  if (li.textContent === "Modular Kitchens (Sleek)") {
+  if (li.textContent === "Wardrobe Kitchen (Sleek) ") {
     const srcLink = "/prodPics/modular_kitchen/";
     appendImges(modular_kitchen, srcLink);
   }
@@ -599,13 +665,13 @@ function appendImges(arr, srcLink) {
 
 const allProductsArr = [
   artifical_grass_and_green_walls,
-  bathroom_partitions,
+  glass,
   flooring_and_walls,
-  glass_railings,
+  // glass_railings,
   laminates,
   mirror,
   pannel,
-  taps,
+  taps_showers,
   wash_basin,
   bath_tub,
   cupboards_and_cabinates,
@@ -623,16 +689,16 @@ const allProductsArr = [
   mdf,
   modular_kitchen,
   power_tools,
-  shower_and_drains,
+  // shower_and_drains,
   venner,
   wpc,
 ];
 
 const allProductsArrString = [
   "artifical_grass_and_green_walls",
-  "bathroom_partitions",
+  "glass",
   "flooring_and_walls",
-  "glass_railings",
+  // "glass_railings",
   "laminates",
   "mirror",
   "pannel",
@@ -654,7 +720,7 @@ const allProductsArrString = [
   "mdf",
   "modular_kitchen",
   "power_tools",
-  "shower_and_drains",
+  // "shower_and_drains",
   "venner",
   "wpc",
 ];
