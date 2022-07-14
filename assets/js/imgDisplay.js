@@ -466,129 +466,130 @@ const Doors = [
 ];
 
 function LoadProducts(li) {
-  if (li.textContent === "Watercloset") {
+  console.log(li.textContent.trim());
+  if (li.textContent.trim() === "Watercloset") {
     const srcLink = "/prodPics/water_closet/";
     appendImges(water_closet, srcLink);
   }
-  if (li.textContent === "Bathroom accessories") {
+  if (li.textContent.trim() === "Bathroom accessories") {
     const srcLink = "/prodPics/Bathroom_accessories/";
     appendImges(bathroom_accessories, srcLink);
   }
 
-  if (li.textContent === "Mirror") {
+  if (li.textContent.trim() === "Mirror") {
     const srcLink = "/prodPics/Mirror/";
     appendImges(mirror, srcLink);
   }
 
-  if (li.textContent === "Bath tub") {
+  if (li.textContent.trim() === "Bath tub") {
     const srcLink = "/prodPics/bath_tub/";
     appendImges(bath_tub, srcLink);
   }
 
-  if (li.textContent === "Taps & Showers") {
+  if (li.textContent.trim() === "Taps & Showers") {
     const srcLink = "/prodPics/Taps/";
     appendImges(taps_showers, srcLink);
   }
 
-  // if (li.textContent === "Shower and drains") {
+  // if (li.textContent.trim() === "Shower and drains") {
   //   const srcLink = "/prodPics/shower_and_drains/";
   //   appendImges(shower_and_drains, srcLink);
   // }
 
-  if (li.textContent === "Wash basin") {
+  if (li.textContent.trim() === "Wash basin") {
     const srcLink = "/prodPics/wash_basin/";
     appendImges(wash_basin, srcLink);
   }
 
-  if (li.textContent === "Tiles") {
+  if (li.textContent.trim() === "Tiles") {
     const srcLink = "/prodPics/tiles/";
     appendImges(tiles, srcLink);
   }
 
-  // if (li.textContent === "Artificial Grass") {
+  // if (li.textContent.trim() === "Artificial Grass") {
   //   const srcLink = "/prodPics/artifical_grass/";
   //   appendImges(artifical_grass, srcLink);
   // }
 
-  if (li.textContent === "Artificial grass & Green Walls") {
+  if (li.textContent.trim() === "Artificial grass & Green Walls") {
     const srcLink = "/prodPics/artifical_grass_and_green_walls/";
     appendImges(artifical_grass_and_green_walls, srcLink);
   }
-  if (li.textContent === "Hardware") {
+  if (li.textContent.trim() === "Hardware") {
     const srcLink = "/prodPics/hardware/";
     appendImges(hardware, srcLink);
   }
 
-  if (li.textContent === "Plywood") {
+  if (li.textContent.trim() === "Plywood & Covering Materials") {
     const srcLink = "/prodPics/plywood/";
     appendImges(plywood, srcLink);
   }
 
-  if (li.textContent === "Laminates") {
+  if (li.textContent.trim() === "Laminates") {
     const srcLink = "/prodPics/laminates/";
     appendImges(laminates, srcLink);
   }
-  if (li.textContent === "Venner") {
+  if (li.textContent.trim() === "Venner") {
     const srcLink = "/prodPics/venner/";
     appendImges(venner, srcLink);
   }
 
-  if (li.textContent === "MDF") {
+  if (li.textContent.trim() === "MDF") {
     const srcLink = "/prodPics/mdf/";
     appendImges(mdf, srcLink);
   }
 
-  if (li.textContent === "Shera Board") {
+  if (li.textContent.trim() === "Shera Board") {
     const srcLink = "/prodPics/shera_board/";
     appendImges(sher_board, srcLink);
   }
 
-  if (li.textContent === "Pannel") {
+  if (li.textContent.trim() === "Pannel") {
     const srcLink = "/prodPics/pannel/";
     appendImges(pannel, srcLink);
   }
 
-  if (li.textContent === "Curtains & Blinds") {
+  if (li.textContent.trim() === "Curtains & Blinds") {
     const srcLink = "/prodPics/curtains_and_blinds/";
     appendImges(curtains_and_blinds, srcLink);
   }
-  if (li.textContent === "Glass") {
+  if (li.textContent.trim() === "Glass") {
     const srcLink = "/prodPics/glass/";
     appendImges(glass, srcLink);
   }
-  // if (li.textContent === "Glass railings") {
+  // if (li.textContent.trim() === "Glass railings") {
   //   const srcLink = "/prodPics/glass_railings/";
   //   appendImges(glass_railings, srcLink);
   // }
-  if (li.textContent === "Doors") {
+  if (li.textContent.trim() === "Doors") {
     const srcLink = "/prodPics/wpc/";
     appendImges(Doors, srcLink);
   }
-  if (li.textContent === "Glass doors") {
+  if (li.textContent.trim() === "Glass doors") {
     const srcLink = "/prodPics/glass_doors/";
     appendImges(glass_doors, srcLink);
   }
-  if (li.textContent === "General Items (fevicol)") {
+  if (li.textContent.trim() === "General Items (fevicol)") {
     const srcLink = "/prodPics/general_items_fevicol/";
     appendImges(general_items_fevicol, srcLink);
   }
-  if (li.textContent === "Wardrobe Kitchen (Sleek) ") {
+  if (li.textContent.trim() === "Wardrobe Kitchen (Sleek)") {
     const srcLink = "/prodPics/modular_kitchen/";
     appendImges(modular_kitchen, srcLink);
   }
-  if (li.textContent === "Power Tools") {
+  if (li.textContent.trim() === "Power Tools") {
     const srcLink = "/prodPics/power_tools/";
     appendImges(power_tools, srcLink);
   }
-  if (li.textContent === "Light") {
+  if (li.textContent.trim() === "Light") {
     const srcLink = "/prodPics/light/";
     appendImges(light, srcLink);
   }
-  if (li.textContent === "Flooring and walls") {
+  if (li.textContent.trim() === "Flooring and walls") {
     const srcLink = "/prodPics/flooring_and_walls/";
     appendImges(flooring_and_walls, srcLink);
   }
-  if (li.textContent === "Cupboards and cabinates") {
+  if (li.textContent.trim() === "Cupboards and cabinates") {
     const srcLink = "/prodPics/cupboards_and_cabinates/";
     appendImges(cupboards_and_cabinates, srcLink);
   }
@@ -605,11 +606,18 @@ for (let li of listListener) {
       i.classList.remove("tagsSelected");
     }
 
-    const selectedProduct =
-      li.parentElement.parentElement.parentElement.getElementsByTagName(
-        "span"
-      )[0];
-    selectedProduct.classList.add("tagsSelected");
+    // const selectedProduct =
+    // li.parentElement.parentElement.parentElement.getElementsByTagName(
+    //   "span"
+    // )[0];
+    li.textContent.trim() === "Watercloset" ||
+    li.textContent.trim() === "Bathroom accessories" ||
+    li.textContent.trim() === "Taps & Showers" ||
+    li.textContent.trim() === "Wash basin"
+      ? li.parentElement.parentElement.parentElement
+          .getElementsByTagName("span")[0]
+          .classList.add("tagsSelected")
+      : li.classList.add("tagsSelected");
 
     LoadProducts(li);
 
@@ -691,7 +699,7 @@ const allProductsArr = [
   power_tools,
   // shower_and_drains,
   venner,
-  wpc,
+  Doors,
 ];
 
 const allProductsArrString = [
@@ -754,13 +762,23 @@ if (redirectedImgBtn) {
 const productClass = document.getElementsByClassName("mobileCategory");
 
 for (let i of productClass) {
-  i.addEventListener("click", () => {
-    const activeClass = document.querySelector(".productSubClassActive");
-    if (activeClass) {
-      activeClass.classList.remove("productSubClassActive");
+  i.addEventListener("click", (e) => {
+    console.log(i.getElementsByTagName("p")[0].textContent);
+    if (i.getElementsByTagName("p")[0].textContent.trim() === "Bathroom") {
+      i.addEventListener("click", () => {
+        const activeClass = document.querySelector(".productSubClassActive");
+        if (activeClass) {
+          activeClass.classList.remove(".productSubClassActive");
+        }
+        const subCat = i.querySelector(".productSubClass");
+        subCat.classList.add("productSubClassActive");
+      });
+    } else {
+      LoadProducts(e.target);
+      mobileClose.classList.toggle("bi-list");
+      mobileClose.classList.toggle("bi-x");
+      navBar.classList.remove("navbar-mobile");
     }
-    const subCat = i.querySelector(".productSubClass");
-    subCat.classList.add("productSubClassActive");
   });
 }
 

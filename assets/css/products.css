@@ -1,9 +1,8 @@
 .lat {
-  font-family: 'El Messiri', sans-serif !important;
+  font-family: "El Messiri", sans-serif !important;
   font-size: 5rem;
   letter-spacing: 0.5px;
   font-weight: bolder;
-
 }
 
 .tags {
@@ -28,9 +27,7 @@
   border-radius: 5px;
 }
 
-
 @media only screen and (max-width: 900px) {
-
   .lat {
     font-size: 4rem;
   }
@@ -40,13 +37,11 @@
     margin-right: 12px;
   }
 
-
   .productsMobile {
     display: none;
   }
 
   .productsMobileActive {
-
     display: inline-block;
     margin: 1em 0em 0em 0em;
   }
@@ -64,11 +59,11 @@
     color: white;
   }
 
-  .productsMobile div>i {
+  .productsMobile div > i {
     align-self: center;
   }
 
-  .productsMobile div>p {
+  .productsMobile div > p {
     margin: 0em;
     color: inherit;
   }
@@ -89,14 +84,13 @@
     border-radius: 5px;
   }
 
-
-  @media (min-width:375px) {
+  @media (min-width: 375px) {
     .productSubClass {
       right: -5.7em;
     }
   }
 
-  @media (min-width:425px) {
+  @media (min-width: 425px) {
     .productSubClass {
       right: -7em;
     }
@@ -120,7 +114,6 @@
     display: none;
   }
 }
-
 
 .productPageLinksMobile {
   display: grid;
@@ -148,8 +141,7 @@
   left: 50%;
 }
 
-
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .productsMobile {
     display: none;
   }
@@ -159,9 +151,7 @@
   }
 }
 
-
-
-#productsHeading>li {
-  margin-bottom: 1em;
-  margin-left: -2em;
+#productsHeading > li {
+  margin-bottom: 0.5em;
+  margin-left: 0.7em;
 }
