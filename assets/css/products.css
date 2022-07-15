@@ -141,7 +141,13 @@
   left: 50%;
 }
 
+.more-sm {
+  display: initial;
+}
 @media (min-width: 900px) {
+  .more-sm {
+    display: none;
+  }
   .productsMobile {
     display: none;
   }

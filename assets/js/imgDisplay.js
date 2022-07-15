@@ -5,9 +5,9 @@ const allProductPhotos = document.getElementById("allProductPhotos");
 const mobileClose = document.getElementsByClassName("mobile-nav-toggle")[0];
 
 /*
-artifical_grass        glass        flooring_and_walls      glass_railings   laminates   mirror              pannel          taps     wash_basin
- bath_tub               cupboards_and_cabinates   general_items_fevicol   green_walls      light      'modular kitchens'   plywood      'sher board'         tiles    water_closet
- bathroom_accessories   curtains_and_blinds      'glass doors'            hardware         mdf         modular_kitchen     power_tools   shower_and_drains   venner   wpc
+artifical_grass        glass        flooring_and_walls         laminates   mirror              pannel          taps     wash_basin
+                   general_items_fevicol   green_walls      light      'modular kitchens'   plywood      'sher board'         tiles    water_closet
+ bathroom_accessories   curtains_and_blinds      'glass doors'            hardware         mdf         modular_kitchen     power_tools   shower_and_drains      wpc
 
 */
 
@@ -25,6 +25,9 @@ const glass = [
   "GLASS3.jpg",
   "GLASS4.jpg",
   "GLASS5.jpg",
+  "GLASS6.jpeg",
+  "GLASS7.jpeg",
+  "GLASS8.jpeg",
 
   // "hindware SHOWER ENCLOSURES 1.jpeg",
   // "hindware SHOWER ENCLOSURES 3.jpeg",
@@ -32,38 +35,18 @@ const glass = [
 ];
 
 const flooring_and_walls = [
-  "Laminate Wooden Flooring leglo vector series  2.jpeg",
   "hvt DeckWood Flooring 2.jpeg",
-  "vector series Aquawood Flooring 4.jpeg",
   "victor series Outdoor Decking 1.jpeg",
-  "Laminate Wooden Flooring urben cllection  vector series  2.jpeg",
   "hvt DeckWood Flooring 4.jpeg",
-  "victor flores Valentino Series 2.jpeg",
   "victor series Outdoor Decking 2.jpeg",
-  "Laminate Wooden Flooring urben cllection  vector series  3.jpeg",
   "hvt Wall Panelling  1.jpeg",
-  "victor flores Valentino Series 3.jpeg",
   "victor series Outdoor Decking 3.jpeg",
-  "Laminate Wooden Flooring urben cllection  vector series 1.jpeg",
   "hvt Wall Panelling  3.jpeg",
-  "victor flores Valentino Series 4.jpeg",
   "victor series Outdoor Decking3.jpeg",
-  "Laminate Wooden Flooring wood line vector series  2.jpeg",
   "hvt Wall Panelling 1.jpeg",
-  "victor series Cladex Max 1.jpeg",
   "victor series foor Accessories  1.jpeg",
-  "Laminate Wooden Flooring wood line vector series  3.jpeg",
-  "vector series Aquawood Flooring 1.jpeg",
-  "victor series Cladex Max 2.jpeg",
   "victor series foor Accessories  2.jpeg",
   "hvt DeckWood Flooring 1.jpeg",
-  "vector series Aquawood Flooring 2.jpeg",
-  "victor series Cladex Max 3.jpeg",
-];
-
-const glass_railings = [
-  "ozone glass door heardware 1.jpeg",
-  "ozone glass door heardware 3.jpeg",
 ];
 
 const laminates = [
@@ -148,48 +131,14 @@ const wash_basin = [
   "hindware sink 2.png",
 ];
 
-const bath_tub = [
-  "americanstandard Bath tubs .jpeg",
-  "hindware BATHTUBS  2.jpeg",
-  "hindware BATHTUBS  1.jpeg",
-  "hindware BATHTUBS  3.jpeg",
-];
-
-const cupboards_and_cabinates = [
-  "godrej Kitchen Fittings.jpeg",
-  "wardrobes sleek 3.jpeg",
-  "hittich drawing system .jpeg",
-  "ozone KITCHEN & FURNITURE FITTINGS .jpeg",
-  "godrej Kitchen Fittings3.jpeg",
-  "hafele Kitchen Solutions   .jpeg",
-  "hittich slidding and folding door systems .jpeg",
-  "wardrobes sleek 1.jpeg",
-  "godrej Kitchen Fittings4.jpeg",
-  "hettich Hallway bathroom .jpeg",
-  "istockphoto-1138890679-170667a.jpeg",
-  "wardrobes sleek 2.jpeg",
-  "godrej Kitchen Fittings5.jpeg",
-  "hettich Hallway beadroom .jpeg",
-  "nimmi Kitchen Solutions 2.jpeg",
-  "hafele Kitchen Solutions    5.jpeg",
-  "hafele Kitchen Solutions    2.jpeg",
-  "hettich Hallway cupboards .jpeg",
-  "nimmi Kitchen Solutions 3.jpeg",
-  "wardrobes sleek 4.jpeg",
-  "hafele Kitchen Solutions    3.jpeg",
-  "hittich drawer .jpeg",
-  "nimmi Kitchen Solutions.jpeg",
-  "wardrobes sleek 5.jpeg",
-];
-
-const general_items_fevicol = [
-  "fevicol  2.png",
-  "fevicol  3.png",
-  "fevicol  4.png",
-  "fevicol 1.png",
-  "fevicol 5.png",
-  "fevicol 9.png",
-];
+// const general_items_fevicol = [
+//   "fevicol  2.png",
+//   "fevicol  3.png",
+//   "fevicol  4.png",
+//   "fevicol 1.png",
+//   "fevicol 5.png",
+//   "fevicol 9.png",
+// ];
 
 const artifical_grass_and_green_walls = [
   // "Artificial Sports Turf 1.jpeg",
@@ -249,11 +198,12 @@ const modular_kitchen = [
 const plywood = [
   "p1.png",
   "p2.jpeg",
+  "p7.png",
+  "p5.jpg",
+
+  "p6.jpg",
   "p3.webp",
   "p4.jpg",
-  "p5.jpg",
-  "p6.jpg",
-  "p7.png",
   // "CenturyPly  flushdoores .jpeg",
   // "austin playwood  blackboard platinum plus .jpeg",
   // "century plywood natzure woods .jpeg",
@@ -344,21 +294,6 @@ const curtains_and_blinds = [
   // "marvel printed blindes .jpeg",
 ];
 
-const glass_doors = [
-  "aristo Glaze  1.jpeg",
-  "aristo Reflection 3.jpeg",
-  "aristo Tesseract 2.jpeg",
-  "aristo highlight 1.jpeg",
-  "aristo latitude.jpeg",
-  "aristo mosaic 3.jpeg",
-  "aristo Glaze  3.jpeg",
-  "aristo Streaks 2.jpeg",
-  "aristo cristal .jpeg",
-  "aristo latitude 2.jpeg",
-  "aristo mosaic  1.jpeg",
-  "ozone HANA DEMOUNTABLE PARTITIONING SYSTEMS.jpeg",
-];
-
 const hardware = [
   "h1.jpeg",
   "h2.png",
@@ -372,7 +307,7 @@ const hardware = [
   "h10.jpg",
   "h16.jpg",
   "h15.jpg",
-  "h11.jpg",
+  // "h11.jpg",
   "h12.jpg",
   "h13.jpg",
   "h14.png",
@@ -416,10 +351,10 @@ const power_tools = [
   "makita Cordless Angle Grinder 2.jpeg",
   "ralliwolf  chop saw   3.jpeg",
   "dewalt grass cutter .jpeg",
-  "makita Cordless Circular Saw  .jpeg",
+  "makita Cordless Circular Saw.jpeg",
   "ralliwolf  earth auger .png",
   "dewalt sanders .jpeg",
-  "makita Cordless Circular Saw .jpeg",
+  // "makita Cordless Circular Saw .jpeg",
   "ralliwolf  welding mechien.jpeg",
 ];
 
@@ -439,17 +374,6 @@ const shower_and_drains = [
   "aquant BODY JETS  3.jpeg",
   "aquant SHOWERS IN PVD FINISHES 2.jpeg",
   // "aquint shower drain 1.jpeg",
-];
-
-const venner = [
-  "time x venner wood mosaic 2.jpeg",
-  "time x venner wall pannel  2.jpeg",
-  "time x venner wall pannel 1.jpeg",
-  "time x venner wood mosaic 1.jpeg",
-  "time x venner exotic collection 1.jpeg",
-  "time x venner stone wash blue .jpeg",
-  "time x venner .jpeg",
-  "timex.jpeg",
 ];
 
 const Doors = [
@@ -479,11 +403,6 @@ function LoadProducts(li) {
   if (li.textContent.trim() === "Mirror") {
     const srcLink = "/prodPics/Mirror/";
     appendImges(mirror, srcLink);
-  }
-
-  if (li.textContent.trim() === "Bath tub") {
-    const srcLink = "/prodPics/bath_tub/";
-    appendImges(bath_tub, srcLink);
   }
 
   if (li.textContent.trim() === "Taps & Showers") {
@@ -529,10 +448,6 @@ function LoadProducts(li) {
     const srcLink = "/prodPics/laminates/";
     appendImges(laminates, srcLink);
   }
-  if (li.textContent.trim() === "Venner") {
-    const srcLink = "/prodPics/venner/";
-    appendImges(venner, srcLink);
-  }
 
   if (li.textContent.trim() === "MDF") {
     const srcLink = "/prodPics/mdf/";
@@ -557,22 +472,16 @@ function LoadProducts(li) {
     const srcLink = "/prodPics/glass/";
     appendImges(glass, srcLink);
   }
-  // if (li.textContent.trim() === "Glass railings") {
-  //   const srcLink = "/prodPics/glass_railings/";
-  //   appendImges(glass_railings, srcLink);
-  // }
+
   if (li.textContent.trim() === "Doors") {
     const srcLink = "/prodPics/wpc/";
     appendImges(Doors, srcLink);
   }
-  if (li.textContent.trim() === "Glass doors") {
-    const srcLink = "/prodPics/glass_doors/";
-    appendImges(glass_doors, srcLink);
-  }
-  if (li.textContent.trim() === "General Items (fevicol)") {
-    const srcLink = "/prodPics/general_items_fevicol/";
-    appendImges(general_items_fevicol, srcLink);
-  }
+
+  // if (li.textContent.trim() === "General Items (fevicol)") {
+  //   const srcLink = "/prodPics/general_items_fevicol/";
+  //   appendImges(general_items_fevicol, srcLink);
+  // }
   if (li.textContent.trim() === "Wardrobe Kitchen (Sleek)") {
     const srcLink = "/prodPics/modular_kitchen/";
     appendImges(modular_kitchen, srcLink);
@@ -588,10 +497,6 @@ function LoadProducts(li) {
   if (li.textContent.trim() === "Flooring and walls") {
     const srcLink = "/prodPics/flooring_and_walls/";
     appendImges(flooring_and_walls, srcLink);
-  }
-  if (li.textContent.trim() === "Cupboards and cabinates") {
-    const srcLink = "/prodPics/cupboards_and_cabinates/";
-    appendImges(cupboards_and_cabinates, srcLink);
   }
 }
 
@@ -675,15 +580,12 @@ const allProductsArr = [
   artifical_grass_and_green_walls,
   glass,
   flooring_and_walls,
-  // glass_railings,
   laminates,
   mirror,
   pannel,
   taps_showers,
   wash_basin,
-  bath_tub,
-  cupboards_and_cabinates,
-  general_items_fevicol,
+  // general_items_fevicol,
   // green_walls,
   light,
   plywood,
@@ -692,13 +594,10 @@ const allProductsArr = [
   water_closet,
   bathroom_accessories,
   curtains_and_blinds,
-  glass_doors,
   hardware,
   mdf,
   modular_kitchen,
   power_tools,
-  // shower_and_drains,
-  venner,
   Doors,
 ];
 
@@ -706,16 +605,12 @@ const allProductsArrString = [
   "artifical_grass_and_green_walls",
   "glass",
   "flooring_and_walls",
-  // "glass_railings",
   "laminates",
   "mirror",
   "pannel",
   "taps",
   "wash_basin",
-  "bath_tub",
-  "cupboards_and_cabinates",
-  "general_items_fevicol",
-  // "green_walls",
+
   "light",
   "plywood",
   "sher_board",
@@ -723,21 +618,17 @@ const allProductsArrString = [
   "water_closet",
   "bathroom_accessories",
   "curtains_and_blinds",
-  "glass_doors",
   "hardware",
   "mdf",
   "modular_kitchen",
   "power_tools",
-  // "shower_and_drains",
-  "venner",
   "wpc",
 ];
 
 const redirectedImg = sessionStorage.homePageProduct;
 
 if (redirectedImg) {
-  //this is executed when products from home page is clicked
-
+  console.log(redirectedImg);
   for (let a = 0; a < allProductsArr.length; a++) {
     for (let b of allProductsArr[a]) {
       if (redirectedImg.slice(redirectedImg.indexOf("$") + 1) === b) {
@@ -747,17 +638,6 @@ if (redirectedImg) {
     }
   }
 }
-
-/*const redirectedImgBtn = sessionStorage.homePageProductBtn;
-
-if (redirectedImgBtn) {
-  const imgName = redirectedImgBtn.slice(redirectedImgBtn.indexOf('$') + 1)
-  const p = document.createElement('p')
-  p.innerText = imgName;
-  LoadProducts(p)
-}*/
-
-/*functionality in mobile for products */
 
 const productClass = document.getElementsByClassName("mobileCategory");
 
