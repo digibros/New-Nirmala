@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+ 
+}
+
+html , body{
+    font-family: 'Alata', sans-serif !important;
+    overflow-x: hidden;
+}
+
+.title-t{
+    margin-top: 110px;
+    font-family: 'El Messiri', sans-serif !important;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-bottom: 35px;
+
+}
+
+.head-h{
+    font-family: 'El Messiri', sans-serif !important;
+    color : rgb(231, 26, 95);
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    font-size: 5.5rem;
+}
+
+.head-s{
+    font-family: 'El Messiri', sans-serif !important;
+    
+    color:black;
+    font-weight: 600;
+}
+
+.line{
+    height: 4px;
+    width: 146px;
+    margin-left: -30px;
+    display: block;
+    background-color: black;
+    transition: width 1.5s ;
+}
+
+.ht{
+    margin-bottom: 2rem;
+}
+
+
+
+.section-title{
+    margin-bottom: 25px;
+}
+
+.section-title h2{
+    font-size: 18px;
+    color : #444343;
+}
+
+
+
+strong{
+    font-size: 1.7rem;
+    font-family: 'El Messiri', sans-serif;
+    margin-top: 1.5rem;
+}
+
+.card{
+  margin: 20px!important;
+}
+
+@media only screen and (max-width: 1050px){
+
+     strong{
+         font-size: 1.255rem;
+     }
+      .head-h{
+          font-size: 3.5rem;
+      }
+
+      .title-t{
+          margin-top: 92px;
+          margin-bottom: 69px;
+      }
+
+      .section-title h2::after{
+          display: none;
+      }
+
+      .interests{
+          margin-bottom: 84px !important;
+      }
+
+    
+}
+
+
+
+
+.interests .icon-box h3{
+    color : #403535 !important;
+    
+}
+
+.interests .icon-box:hover{
+    background-color: #3bb3c3 !important;
+    color : white !important;
+}
+
+.interests .icon-box:hover h3{
+    color : white !important;
+}
+
+
+.ret{
+    font-size: 12px;
+    color : white;
+}
+
+
+.flip-card .flip-front{
+
+    display: flex;
+        flex-direction: column;
+        justify-content: center;}	
+
+
+        
+
+
+        .frag{
+            font-family: 'El Messiri', sans-serif !important;
+            color : rgb(231, 26, 95);
+            font-weight: 600;
+            letter-spacing: 0.2rem;
+            font-size: 2.5rem;
+        }
+
+        .frg{
+            margin-top: 120px !important;
+            margin-bottom: 45px !important;
+        }
+
+.portfolioCarossal{
+    position: static;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+}
