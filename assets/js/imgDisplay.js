@@ -24,7 +24,7 @@ const flooring_and_walls = [
   "hvt Wall Panelling  1.jpeg",
   "victor series Outdoor Decking 3.jpeg",
   "hvt Wall Panelling  3.jpeg",
-  "victor series Outdoor Decking3.jpeg", 
+  "victor series Outdoor Decking3.jpeg",
   "hvt Wall Panelling 1.jpeg",
   "victor series foor Accessories  1.jpeg",
   "victor series foor Accessories  2.jpeg",
@@ -135,7 +135,6 @@ const modular_kitchen = [
   "k7.jpg",
   "k8.jpg",
   "k9.jpg",
-  
 ];
 
 const plywood = [
@@ -286,7 +285,7 @@ const Doors = [
 ];
 
 function LoadProducts(li) {
-  console.log(li.textContent.trim());
+  // console.log(li.textContent.trim());
   if (li.textContent.trim() === "Watercloset") {
     const srcLink = "/prodPics/water_closet/";
     appendImges(water_closet, srcLink);
