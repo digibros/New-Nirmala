@@ -24,7 +24,7 @@ const flooring_and_walls = [
   "hvt Wall Panelling  1.jpeg",
   "victor series Outdoor Decking 3.jpeg",
   "hvt Wall Panelling  3.jpeg",
-  "victor series Outdoor Decking3.jpeg",
+  "victor series Outdoor Decking3.jpeg", 
   "hvt Wall Panelling 1.jpeg",
   "victor series foor Accessories  1.jpeg",
   "victor series foor Accessories  2.jpeg",
