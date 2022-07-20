@@ -3,7 +3,6 @@ const indexGalary = [
   "aquant bath chairs 1.jpeg",
   "rak tiles 3.jpeg",
   "p5.jpg",
-
   "hvt DeckWood Flooring 4.jpeg",
   "k7.jpg",
   "rak water closets 3.jpeg",
