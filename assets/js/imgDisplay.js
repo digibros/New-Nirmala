@@ -4,21 +4,6 @@ const productsGallery = document.getElementsByClassName("productsGallery")[0];
 const allProductPhotos = document.getElementById("allProductPhotos");
 const mobileClose = document.getElementsByClassName("mobile-nav-toggle")[0];
 
-/*
-artifical_grass        glass        flooring_and_walls         laminates   mirror              pannel          taps     wash_basin
-                   general_items_fevicol   green_walls      light      'modular kitchens'   plywood      'sher board'         tiles    water_closet
- bathroom_accessories   curtains_and_blinds      'glass doors'            hardware         mdf         modular_kitchen     power_tools   shower_and_drains      wpc
-
-*/
-
-// const artifical_grass = [
-//   "Artificial Sports Turf 1.jpeg",
-//   "hvt Artificial Grass  3.png",
-//   "hvt Artificial Grass  1.jpeg",
-//   "hvt Artificial Grass  4.jpeg",
-//   "hvt Artificial Grass  2.jpeg",
-// ];
-
 const glass = [
   "GLASS1.jpg",
   "GLASS5.jpg",
@@ -29,10 +14,6 @@ const glass = [
 
   "GLASS3.jpg",
   "GLASS7.jpeg",
-
-  // "hindware SHOWER ENCLOSURES 1.jpeg",
-  // "hindware SHOWER ENCLOSURES 3.jpeg",
-  // "hindware SHOWER ENCLOSURES 2.jpeg",
 ];
 
 const flooring_and_walls = [
