@@ -11,7 +11,7 @@ const glass = [
   "GLASS2.jpg",
   "GLASS6.jpeg",
   "GLASS4.jpg",
-
+  "k10.jpg",
   "GLASS3.jpg",
   "GLASS7.jpeg",
 ];
@@ -135,7 +135,7 @@ const modular_kitchen = [
   "k7.jpg",
   "k8.jpg",
   "k9.jpg",
-  "k10.jpg",
+  
 ];
 
 const plywood = [
