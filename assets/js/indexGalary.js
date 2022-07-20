@@ -1,16 +1,18 @@
 const indexGalary = [
-  "DOOR2.jpeg",
+  
   "aquant bath chairs 1.jpeg",
   "rak tiles 3.jpeg",
-  "p5.jpg",
+  "b1.jpg",
   "hvt DeckWood Flooring 4.jpeg",
   "k7.jpg",
-  "rak water closets 3.jpeg",
+  
   "GLASS1.jpg",
   "h1.jpeg",
-  "b1.jpg",
+  "DOOR2.jpeg",
   "Vertical Green Walls hvt  3.jpeg",
   "LIGHT2.png",
+  "p5.jpg",
+  "rak water closets 3.jpeg",
   "makita Cordless Circular Saw.jpeg",
 ];
 
