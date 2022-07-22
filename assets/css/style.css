@@ -491,6 +491,7 @@ h6 {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
+  text-align:left;
   color: #555555;
 }
 
@@ -1047,6 +1048,7 @@ body {
 .newFooter a {
   color: rgba(255, 255, 255, 0.801);
   letter-spacing: 0px;
+  text-align: justify;
 }
 
 .newFooter>h2,
