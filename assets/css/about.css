@@ -166,6 +166,9 @@ font-family: 'Roboto', sans-serif;
      margin: 3px;
   }
 
+  .add{
+    text-align: left;
+  }
   .para{
      margin: 30px !important;
      width: 90%;
