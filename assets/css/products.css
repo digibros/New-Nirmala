@@ -9,7 +9,7 @@
   background-color: rgb(211, 211, 211);
   color: rgb(32, 32, 32);
   font-size: 1.3rem;
- 
+
   padding: 0.1em 1em;
   border-radius: 5px;
   margin: 1em;
@@ -26,8 +26,43 @@
   color: white;
   border-radius: 5px;
 }
-
+.products-hero {
+  background-image: url("../../nirmala/produ.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  animation-duration: 750ms;
+  animation-delay: 300ms;
+  animation-fill-mode: forwards !important;
+  min-height: 645px;
+}
+.prod-hero-sm {
+  display: none;
+}
 @media only screen and (max-width: 900px) {
+  .products-hero {
+    background-color: #fff !important;
+    background-image: none !important;
+    background-size: cover !important;
+    background-position: center !important;
+    animation-duration: 750ms;
+    animation-delay: 300ms;
+    animation-fill-mode: forwards !important;
+    min-height: auto !important;
+    padding-right: 10% !important;
+    padding-left: 3% !important;
+  }
+  .homebtn {
+    box-shadow: 0 0 3px 3px rgba(211, 211, 211, 0.278);
+  }
+  .prod-hero-sm {
+    display: block;
+    height: 40vh;
+    background-image: url("../../nirmala/prod-hero.jpg") !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
   .lat {
     font-size: 4rem;
   }

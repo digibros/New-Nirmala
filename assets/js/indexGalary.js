@@ -1,11 +1,10 @@
 const indexGalary = [
-  
   "aquant bath chairs 1.jpeg",
   "rak tiles 3.jpeg",
   "b1.jpg",
   "hvt DeckWood Flooring 4.jpeg",
   "k7.jpg",
-  
+
   "GLASS1.jpg",
   "h1.jpeg",
   "DOOR2.jpeg",
@@ -97,4 +96,11 @@ const title = document.getElementsByClassName("title-pg")[0];
 title.style.cursor = "pointer";
 title.addEventListener("click", () => {
   window.location.href = "./about.html";
+});
+
+const productsMobile = document.getElementsByClassName("products")[0];
+const productsMobileCate = document.getElementsByClassName("productsMobile")[0];
+
+productsMobile.addEventListener("click", () => {
+  productsMobileCate.classList.toggle("productsMobileActive");
 });
