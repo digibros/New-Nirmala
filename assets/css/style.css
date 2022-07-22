@@ -1046,7 +1046,7 @@ body {
 .newFooter h4,
 .newFooter a {
   color: rgba(255, 255, 255, 0.801);
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 
 .newFooter>h2,
