@@ -518,10 +518,12 @@ for (let i of productClass) {
   i.addEventListener("click", (e) => {
     console.log(i.getElementsByTagName("p")[0].textContent);
     if (i.getElementsByTagName("p")[0].textContent.trim() === "Bathroom") {
+      const subCat = i.querySelector(".productSubClass");
+      subCat.classList.add("productSubClassActive");
       i.addEventListener("click", () => {
         const activeClass = document.querySelector(".productSubClassActive");
         if (activeClass) {
-          activeClass.classList.remove(".productSubClassActive");
+          activeClass.classList.remove("productSubClassActive");
         }
         const subCat = i.querySelector(".productSubClass");
         subCat.classList.add("productSubClassActive");
